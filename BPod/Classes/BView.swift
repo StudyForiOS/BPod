@@ -13,7 +13,7 @@ class BView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        let suBView = try! Bus.callData("APod/AView", params: "1233") as? UIView
+        let suBView = try! Bus.callData("ABusiness/AView", params: "1233") as? UIView
         suBView?.frame = frame
         
         if let view = suBView {

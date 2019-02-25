@@ -8,9 +8,9 @@
 import UIKit
 import BaseBusiness
 
-class BView: UIView {
+public class BView: UIView {
 
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         
         let suBView = try! Bus.callData("ABusiness/AView", params: "1233") as? UIView

@@ -293,12 +293,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BPod_Example/Pods-BPod_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BPod/BPod.framework",
+				"${BUILT_PRODUCTS_DIR}/BaseBusiness/BaseBusiness.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BPod.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BaseBusiness.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
